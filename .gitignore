@@ -1,0 +1,50 @@
+# OS / editors
+.DS_Store
+__MACOSX/
+*.swp
+*.swo
+.vscode/
+.idea/
+.spyproject/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Build / logs
+build/
+dist/
+*.o
+*.so
+*.dylib
+*.log
+
+# Raw or collaboration-controlled experimental data
+Data_Full_5_Center/
+data/raw/
+raw_data/
+*.daq
+
+# Large/generated analysis and simulation outputs
+results/
+outputs/
+reproduction_results/
+Pentagon_Array_FINAL_REPRODUCIBILITY_RESULTS/
+Pentagon_CORSIKA_FINAL_REPRODUCIBILITY/
+*.parquet
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.root
+
+# Frozen third-party catalog byte snapshots are intentionally kept out of Git.
+catalog_cache_V12.zip
+catalog_cache_V12/
