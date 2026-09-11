@@ -1,0 +1,43 @@
+{
+  "source_count": 17,
+  "interval_test_count": 102,
+  "interval_observed_max_source": "LS I +61 303",
+  "interval_observed_max_interval": 1,
+  "interval_observed_max_z": 2.962586193554738,
+  "interval_gaussian_family_p": 0.13833137233372553,
+  "interval_gaussian_exceedances": 691656,
+  "interval_correlation_min_eigenvalue_before_clipping": 0.1325397484877245,
+  "full_observed_max_source": "LS I +61 303",
+  "full_observed_max_z": 1.9149507785611162,
+  "full_gaussian_family_p": 0.3557955288408942,
+  "full_gaussian_exceedances": 1778977,
+  "full_correlation_min_eigenvalue_before_clipping": 0.13550933266458934,
+  "full_aggregate_count_stack_z": -0.1829935080391061,
+  "full_equal_source_stack_z": -0.01645494092793413,
+  "interval_aggregate_count_stack_z": [
+    -1.1800632481029445,
+    -1.2941771906674338,
+    1.9272022305749588,
+    -0.796131066957318,
+    0.5388401107667293,
+    0.3748674552881266
+  ],
+  "interval_aggregate_count_max_z": 1.9272022305749588,
+  "interval_aggregate_count_six_interval_family_p": 0.15131976973604605,
+  "interval_aggregate_count_exceedances": 756598,
+  "interval_aggregate_count_min_eigenvalue": 0.9998840651159147,
+  "interval_equal_source_stack_z": [
+    -1.2806106142078753,
+    -0.9814763132353368,
+    1.9936814690320386,
+    -0.3743345038757966,
+    0.39316645955391094,
+    0.22773412462482517
+  ],
+  "interval_equal_source_max_z": 1.9936814690320386,
+  "interval_equal_source_six_interval_family_p": 0.13076117384776523,
+  "interval_equal_source_exceedances": 653805,
+  "interval_equal_source_min_eigenvalue": 0.9998009791246995,
+  "gaussian_trials": 5000000,
+  "note": "Exact joint permutation mean/covariance for 1279 independent four-hour blocks; correlated Gaussian family calibration. Direct 100k phase calibration is reported separately for the sole phase-resolved UHE binary lead."
+}

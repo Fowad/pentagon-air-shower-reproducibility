@@ -1,0 +1,14 @@
+name: pentagon-air-shower-repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - astropy
+  - healpy
+  - pyyaml
+  - pyarrow
+  - pip

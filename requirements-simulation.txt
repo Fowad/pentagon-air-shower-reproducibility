@@ -1,0 +1,3 @@
+-r requirements.txt
+# Detector-response simulation branch. This binding supplies Geant4 at runtime.
+geant4-pybind==0.1.3

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and the associated manuscript."
+title: "Pentagon Air-Shower Directional Analysis and Reproducibility Code"
+type: software
+authors:
+  - family-names: Motahari
+    given-names: Fowad
+version: 1.0.0
+date-released: 2026-09-11
+license: MIT
+abstract: >-
+  Reproducibility-oriented Python and simulation code for the analysis of a
+  five-detector pentagon air-shower array, including event reconstruction,
+  directional statistics, Monte Carlo calibration, source-family tests, and
+  targeted CORSIKA/Geant4 detector-response studies.
+keywords:
+  - cosmic rays
+  - extensive air showers
+  - astroparticle physics
+  - Monte Carlo
+  - reproducibility
+  - CORSIKA
+  - Geant4

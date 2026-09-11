@@ -1,0 +1,24 @@
+{
+  "figure": "/workspace/scratch/1ccf670eebbd/simulation/geant4_response/particle_grid_v1/geant4_particle_response_validation.png",
+  "figure_sha256": "56061e7d1912490b58e11dc5e0b5379387555a94c33d1991d317268c73dc97fa",
+  "files": 270,
+  "geant4_version_numbers": [
+    1141
+  ],
+  "long_csv": "/workspace/scratch/1ccf670eebbd/simulation/geant4_response/particle_grid_v1/geant4_particle_threshold_probabilities.csv",
+  "long_csv_sha256": "ea11311e9d044db944669226bc0d3b0ddeaae498b3e8152403c83dbe03c974f5",
+  "manifest": "/workspace/scratch/1ccf670eebbd/simulation/geant4_response/particle_grid_v1/GEANT4_PARTICLE_RESPONSE_GRID_MANIFEST.json",
+  "manifest_sha256": "5d80de5f91dd3a7c97cda2328103555e09b72bf03fcab39516c32a762fc68b09",
+  "mip_mpv_mev": 3.57852,
+  "protocol": "PENTAGON-GEANT4-PARTICLE-RESPONSE-GRID-V1",
+  "status": "complete",
+  "thresholds_mip": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "total_events": 690000,
+  "wide_csv": "/workspace/scratch/1ccf670eebbd/simulation/geant4_response/particle_grid_v1/geant4_particle_response_summary.csv",
+  "wide_csv_sha256": "3d7e2978328d24fbe3c96681a41e0f2ec9fca8b907e720bf4e0a4f4ef1845ebd"
+}

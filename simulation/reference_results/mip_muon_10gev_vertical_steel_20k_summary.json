@@ -1,0 +1,43 @@
+{
+  "input_file": "simulation/geant4_response/mip_muon_10gev_vertical_steel_20k.npz",
+  "input_sha256": "e01f61afe4446f4d055d3373a99ee603271d4a70fa514a4e9c4e8f1ed3466df6",
+  "mean_mev": 4.091948807449232,
+  "median_mev": 3.7110516104848257,
+  "moyal_fit": {
+    "bootstrap_replicates": 500,
+    "bootstrap_seed": 20260820,
+    "location_mpv_95pct_interval_mev": [
+      3.5718456535124896,
+      3.585106840165627
+    ],
+    "location_mpv_mev": 3.5785179164988064,
+    "scale_95pct_interval_mev": [
+      0.343859892414647,
+      0.35510981610069187
+    ],
+    "scale_mev": 0.34881922943021226
+  },
+  "n_events": 20000,
+  "purpose": "Deposited-energy MIP reference for a detector-response envelope; not an electronics-threshold calibration",
+  "quantiles": {
+    "q01_mev": 3.066763429791756,
+    "q05_mev": 3.1870109999704286,
+    "q10_mev": 3.2623019414116934,
+    "q25_mev": 3.4241772849750034,
+    "q50_mev": 3.7110516104848257,
+    "q75_mev": 4.277464948423151,
+    "q90_mev": 5.391958104095871,
+    "q95_mev": 6.498661199832051,
+    "q99_mev": 8.758267914895137
+  },
+  "simulation_metadata": {
+    "angle_deg": 0.0,
+    "geant4_version_number": 1141,
+    "include_steel": true,
+    "kinetic_energy_mev": 10000.0,
+    "particle": "mu-",
+    "seed": 420260820
+  },
+  "standard_deviation_mev": 1.1492431053989023,
+  "zero_deposit_fraction": 0.0
+}

@@ -1,0 +1,143 @@
+{
+  "release_id": "PENTAGON-PEV-FOLLOWUP-V12A-2026-08-20",
+  "source": "LS I +61 303",
+  "ra_deg": 40.1319,
+  "dec_deg": 61.2293,
+  "phase_epoch_mjd": 43366.275,
+  "period_days": 26.496,
+  "trials": 100000,
+  "workers": 1,
+  "trial_chunk": 100,
+  "randomization": "within-run four-hour time-label permutation",
+  "aperture_radius_deg": 8.0,
+  "event_sha256": "f7f370ad96d69ef9a793472490b4f10f4deff4e6c62cd2211527f1c65e245a6b",
+  "state_fingerprint": "34e8faeb5f7ff5bdfe79b8609b15683d3f8443d8b78a9c016013318de24717fc",
+  "v12_code_sha256": "853c690442f3f956661bb41707192cbb1a9438a6f7be17e13f85c48bb1ea3435",
+  "phase_bin_tests": [
+    {
+      "test": "phase_0.0_0.1",
+      "N": 533,
+      "B": 531.27086,
+      "sB": 17.934775477326017,
+      "Z": 0.09641269288183112,
+      "exceedances": 47076,
+      "one_sided_p": 0.47076529234707654
+    },
+    {
+      "test": "phase_0.1_0.2",
+      "N": 600,
+      "B": 596.3103,
+      "sB": 18.92112877185067,
+      "Z": 0.19500422223695524,
+      "exceedances": 43258,
+      "one_sided_p": 0.43258567414325855
+    },
+    {
+      "test": "phase_0.2_0.3",
+      "N": 550,
+      "B": 522.8431,
+      "sB": 17.630312835264654,
+      "Z": 1.5403527012680085,
+      "exceedances": 6537,
+      "one_sided_p": 0.06537934620653793
+    },
+    {
+      "test": "phase_0.3_0.4",
+      "N": 501,
+      "B": 461.94434,
+      "sB": 16.659340242055677,
+      "Z": 2.3443701510703234,
+      "exceedances": 1068,
+      "one_sided_p": 0.010689893101068989
+    },
+    {
+      "test": "phase_0.4_0.5",
+      "N": 353,
+      "B": 342.73066,
+      "sB": 14.425164013555767,
+      "Z": 0.711904557227189,
+      "exceedances": 24837,
+      "one_sided_p": 0.24837751622483775
+    },
+    {
+      "test": "phase_0.5_0.6",
+      "N": 421,
+      "B": 411.93981,
+      "sB": 15.768113821825578,
+      "Z": 0.5745893327748074,
+      "exceedances": 29248,
+      "one_sided_p": 0.2924870751292487
+    },
+    {
+      "test": "phase_0.6_0.7",
+      "N": 391,
+      "B": 395.10917,
+      "sB": 15.409944405317367,
+      "Z": -0.266657029507653,
+      "exceedances": 61782,
+      "one_sided_p": 0.6178238217617824
+    },
+    {
+      "test": "phase_0.7_0.8",
+      "N": 363,
+      "B": 352.00136,
+      "sB": 14.550693295412009,
+      "Z": 0.7558842576571945,
+      "exceedances": 23501,
+      "one_sided_p": 0.23501764982350176
+    },
+    {
+      "test": "phase_0.8_0.9",
+      "N": 497,
+      "B": 497.64704,
+      "sB": 17.366541256276495,
+      "Z": -0.03725785062504345,
+      "exceedances": 52743,
+      "one_sided_p": 0.5274347256527435
+    },
+    {
+      "test": "phase_0.9_1.0",
+      "N": 618,
+      "B": 613.32909,
+      "sB": 19.145057720056194,
+      "Z": 0.24397471495250939,
+      "exceedances": 41353,
+      "one_sided_p": 0.4135358646413536
+    }
+  ],
+  "ten_phase_bin_max_z": 2.3443701510703234,
+  "ten_phase_bin_family_exceedances": 9305,
+  "ten_phase_bin_family_p": 0.0930590694093059,
+  "published_window_tests": [
+    {
+      "test": "published_25_100TeV_phase_0.3_0.6",
+      "N": 1275,
+      "B": 1216.61481,
+      "sB": 27.023409875711618,
+      "Z": 2.160541185162425,
+      "exceedances": 1647,
+      "one_sided_p": 0.016479835201647985
+    },
+    {
+      "test": "published_gt100TeV_phase_0.6_0.2",
+      "N": 3002,
+      "B": 2985.66782,
+      "sB": 42.4528152053878,
+      "Z": 0.38471370911409236,
+      "exceedances": 35489,
+      "one_sided_p": 0.35489645103548967
+    }
+  ],
+  "two_published_window_max_z": 2.160541185162425,
+  "two_published_window_family_exceedances": 3194,
+  "two_published_window_family_p": 0.031949680503194966,
+  "full_archive": {
+    "N": 4827,
+    "B": 4725.12573,
+    "sB": 53.43954378375154,
+    "Z": 1.906346177135132,
+    "exceedances": 2974,
+    "one_sided_p": 0.02974970250297497
+  },
+  "checkpoint": "audit/results/lsi_phase_bins_100k_checkpoint.npz"
+}

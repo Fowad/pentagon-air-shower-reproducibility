@@ -1,0 +1,40 @@
+{
+  "bands_tev": [
+    [
+      25.0,
+      100.0
+    ],
+    [
+      100.0,
+      300.0
+    ],
+    [
+      300.0,
+      1000.0
+    ],
+    [
+      1000.0,
+      1600.0
+    ]
+  ],
+  "exposure_summary": "/workspace/scratch/1ccf670eebbd/simulation/source_exposure/lhaaso_37_actual_live_exposure_summary.csv",
+  "exposure_summary_sha256": "7082483a7b9c7c06ee1c70bf09e8022bdc1a466773c0c79fa698a20e70442a8e",
+  "interpretation_constraint": "incident-photon benchmarks are not accepted-event predictions; the catalog warns that about one third of KM2A components are curved",
+  "leading_300_1000tev_source": "1LHAASO J1908+0615u",
+  "leading_300_1000tev_visible_fluence_cm-2": 2.4223928261955895e-09,
+  "leading_incident_photons_at_10000m2": 0.24223928261955896,
+  "output_csv": "/workspace/scratch/1ccf670eebbd/simulation/source_exposure/lhaaso_37_flux_live_time_benchmark.csv",
+  "output_csv_sha256": "a781af76912b74cf53da254c93e0a4dcfadc2edd1158897a5ec98ca8a2466381",
+  "protocol": "PENTAGON-LHAASO-FLUX-LIVE-TIME-BENCHMARK-V1",
+  "reference_areas_m2": [
+    100.0,
+    1000.0,
+    10000.0
+  ],
+  "script": "/workspace/scratch/1ccf670eebbd/simulation/build_lhaaso_flux_exposure_benchmark.py",
+  "script_sha256": "0b1279bf9d1e0109f613ae230789355fac07f599846a2ed6696b8400d0d4b577",
+  "source_count": 37,
+  "source_spectrum": "first-LHAASO KM2A catalog power law, dN/dE=N0*(E/50 TeV)^(-Gamma)",
+  "sources": "/workspace/scratch/1ccf670eebbd/audit/lhaaso_37_sources.csv",
+  "sources_sha256": "1493be0a17484b0787b4cd840e12a7acf9bcfcef4aa71dcf626acb8458e00ffd"
+}

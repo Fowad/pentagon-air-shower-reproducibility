@@ -1,0 +1,23 @@
+source,ra_deg,dec_deg,selection_basis,energy_max_pev,energy_evidence,p300_core
+1LHAASO J0007+7303u / CTA 1,1.91,73.07,LHAASO dedicated CTA 1 publication,0.30,measured gamma-ray spectrum extends to 300 TeV,yes
+LS I +61 303,40.1319,61.2293,LHAASO UHE gamma-ray binary publication,0.267,highest photon 267 +/- 75 TeV; UHE orbital modulation externally specified,yes
+Crab Nebula,83.6331,22.0145,LHAASO 2021 twelve-source UHE sample,0.88,highest detected photon,yes
+LHAASO J1839-0545,279.95,-5.75,LHAASO 2021 twelve-source UHE sample,0.21,highest detected photon,no
+LHAASO J1843-0338,280.75,-3.65,LHAASO 2021 twelve-source UHE sample,0.26,highest detected photon; uncertainty reaches above 0.3 PeV,no
+LHAASO J1849-0003,282.35,-0.05,LHAASO 2021 twelve-source UHE sample,0.35,highest detected photon,yes
+LHAASO J1908+0621,287.05,6.35,LHAASO 2021 twelve-source UHE sample,0.44,highest detected photon,yes
+LHAASO J1929+1745,292.25,17.75,LHAASO 2021 twelve-source UHE sample,0.71,highest detected photon,yes
+LHAASO J1956+2845,299.05,28.75,LHAASO 2021 twelve-source UHE sample,0.42,highest detected photon,yes
+LHAASO J2018+3651,304.75,36.85,LHAASO 2021 twelve-source UHE sample,0.27,highest detected photon,no
+1LHAASO J1740+0948u,265.03,9.81,LHAASO bow-shock PWN-tail publication,0.30,measured gamma-ray spectrum extends to 300 TeV,yes
+G150.3+4.5 high-energy cloud component,66.738491,54.519338,LHAASO 2026 SNR PeVatron publication,0.30,published emission reaches hundreds of TeV and traces PeV parent particles,yes
+Gamma Cygni high-energy cloud component,305.140582,40.453316,LHAASO 2026 SNR PeVatron publication,0.30,published emission reaches hundreds of TeV and traces PeV parent particles,yes
+Cygnus UHE core / Cyg X-3,308.1166,40.9434,LHAASO Cygnus bubble and Cyg X-3 publications,3.7,spectrum extends to 3.7 PeV; response-degenerate with J2032+4102,yes
+LHAASO J2108+5157,317.15,51.95,LHAASO 2021 twelve-source UHE sample,0.43,highest detected photon,yes
+LHAASO J2226+6057 / G106.3+2.7,336.75,60.95,LHAASO 2021 and Tibet ASgamma,0.57,highest detected photon,yes
+LHAASO Peanut strip,31.70,43.14,LHAASO 2025 Peanut publication,0.76,highest detected photon in region,yes
+SS 433 central UHE component,287.89,5.16,LHAASO UHE microquasar publication,0.63,published fitted energy range 100-630 TeV,yes
+GRS 1915+105 UHE component,288.74,10.88,LHAASO UHE microquasar publication,1.0,published fitted energy range 25-1000 TeV,yes
+MAXI J1820+070 UHE component,275.22,7.39,LHAASO UHE microquasar publication,0.4,published fitted energy range 25-400 TeV,yes
+Cygnus X-1 UHE candidate,299.47,35.37,LHAASO UHE microquasar publication,0.1,published fitted energy range 25-100 TeV,no
+W51 complex,290.82,14.15,LHAASO W51 publication,0.2,measured spectrum extends to 200 TeV,no

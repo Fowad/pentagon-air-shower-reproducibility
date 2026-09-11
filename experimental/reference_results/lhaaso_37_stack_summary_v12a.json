@@ -1,0 +1,17 @@
+{
+  "source_count": 37,
+  "equal_source_stouffer_z": -0.4499859909302325,
+  "equal_source_stouffer_one_sided_p": 0.6736397290487901,
+  "flux50_weighted_stouffer_z": -0.33760069541533383,
+  "flux50_weighted_stouffer_one_sided_p": 0.6321679409728902,
+  "flux100_weighted_stouffer_z": -0.5401165523716592,
+  "flux100_weighted_stouffer_one_sided_p": 0.7054416718753715,
+  "full_archive_max_source": "1LHAASO J1740+0948u",
+  "full_archive_max_z": 1.6368528816130794,
+  "full_archive_37_source_family_p": 0.7178658564268288,
+  "full_archive_37_source_family_exceedances": 3589329,
+  "family_gaussian_trials": 5000000,
+  "correlation_min_eigenvalue": 0.03025624074926663,
+  "covariance_min_eigenvalue": 44.39002329707139,
+  "note": "Exact permutation mean/covariance; Gaussian family tail from 1279 independent four-hour blocks. The 100-TeV flux weighting is the preferred catalog-brightness sensitivity check. It is not detector-response optimal because gamma effective area versus energy is unavailable."
+}
